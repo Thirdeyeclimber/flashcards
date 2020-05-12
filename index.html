@@ -43,6 +43,14 @@
               <div className="card-list">
                 {this.state.cardData.map((card, index) => <Card key={index} front={card.front} />)}
               </div>
+              <div className='buttons'>
+                <button>
+                  &lt;
+                </button>
+                <button>
+                  &gt;
+                </button>
+              </div>
             </div>
           );
         }

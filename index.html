@@ -75,6 +75,12 @@
             flipped: false
           };
         }
+
+        componentDidUpdate(prevProps, prevState) {
+          if (prevState.flipped === true) {
+            this.setState({ flipped: false });
+          }
+        }
         
           flipCard = () => {
             if (this.props.index === 0) {

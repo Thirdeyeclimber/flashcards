@@ -2,6 +2,6 @@
 
 A Flashcard app built with React.
 
-<h3>Deployed with Heroku - <a href="#">Live Demo</a></h3>
+<h3>Deployed with Heroku - <a href="michaels-flashcards.herokuapp.com">Live Demo</a></h3>
 
-![](flashback-giphy.gif)
+![gif](images/flashback-giphy.gif)
